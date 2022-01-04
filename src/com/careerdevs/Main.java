@@ -1,8 +1,13 @@
 package com.careerdevs;
 
-public class Main {
-
+class HelloWorld {
     public static void main(String[] args) {
-	// write your code here
+        String FirstName = "Kat";
+        String LastName = "Camp";
+        String FullName = FirstName + LastName;
+
+
+
+        System.out.println(FullName );
     }
 }

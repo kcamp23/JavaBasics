@@ -1,7 +1,7 @@
 package com.careerdevs;
 
-class HelloWorld {
-    public static void main(String[] args) {
+class JavaBasics {
+    public static void main() {
         String FirstName = "Kat";
         String LastName = "Camp";
         String FullName = FirstName + LastName;

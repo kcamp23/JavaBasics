@@ -13,14 +13,15 @@ package com.careerdevs;
 //}
 
 class JavaBasics {
-    public static void  main(String [] args) {
-User user =   new User( );
-user.firstName = "Kat";
-user.lastName = "Camp";
- System.out.println(user.getFullName());
+    public static void main(String[] args) {
+        User user = new User();
+        user.firstName = "Kat";
+        user.lastName = "Camp";
+        System.out.println(user.getFullName());
 
     }
-    public class User {
+}
+    public class User{
         public String firstName;
         public String lastName;
 
@@ -28,7 +29,7 @@ user.lastName = "Camp";
             return firstName + "" + lastName;
         }
     }
-    }
+
 //
 //    public String FirstName;
 //    public String LastName;

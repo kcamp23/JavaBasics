@@ -3,10 +3,10 @@ package com.careerdevs.cars;
 
             public class Car
     {
-                public String make;
-                public String model;
-                public int mileage;
-                public double gasPercentage;
+                private String make;
+                private String model;
+                private int mileage;
+                private double gasPercentage;
          public Car(String make,String model,int mileage, double gasPercentage)
                 {
                         this.make = make;

@@ -1,13 +1,14 @@
 package com.careerdevs.cars;
 
 
-            public class Car {
+            public class car
+            {
                 private String make;
                 private String model;
                 private int mileage;
-                private double gasPercentage;
+                private float gasPercentage;
 
-                public Car(String make, String model, int mileage, double gasPercentage) {
+                public car(String make, String model, int mileage, float gasPercentage) {
                     this.make = make;
                     this.model = model;
                     this.mileage = mileage;
@@ -41,12 +42,12 @@ package com.careerdevs.cars;
                     return mileage;
                 }
 
-                public double setgasPercentage(double gasPercentage) {
+                public float setgasPercentage(float gasPercentage) {
                     this.gasPercentage = gasPercentage;
                     return gasPercentage;
                 }
 
-                public double getgasPercentage() {
+                public float getgasPercentage() {
                     return gasPercentage;
                 }
 

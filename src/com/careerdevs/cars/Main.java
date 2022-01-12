@@ -5,9 +5,9 @@ public class Main {
     public static void main (String[] args)
     {
 
-        Car car1 = new Car("Camero 2SS",  "Chevy" , 10000, .10);
-        Car car2 = new Car("Mustang GT ", "Ford" , 30000, .50);
-        Car car3 = new Car("Hellcat", "Dodge" , 100, .9000);
+        car car1 = new car("Camero 2SS",  "Chevy" , 10000, .10f);
+        car car2 = new car("Mustang GT ", "Ford" , 30000, .50f);
+        car car3 = new car("Hellcat", "Dodge" , 100, .9000f);
 
 
         System.out.println(car1);

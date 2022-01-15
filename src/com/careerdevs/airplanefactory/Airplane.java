@@ -29,4 +29,13 @@ public class Airplane {
 
     //any other methods (tostring)
 
+    @Override
+    public String toString() {
+        return "Airplane{" +
+                "passengers=" + passengers +
+                ", maxSpeed=" + maxSpeed +
+                ", idCharacter=" + idCharacter +
+                ", airLineName='" + airLineName + '\'' +
+                '}';
+    }
 }

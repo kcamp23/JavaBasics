@@ -8,7 +8,7 @@ public class BuildACar {
     public int  mileage;
 
 
-    public Car (String owner, String make, String model,  Int mileage){
+    public  BuildACar (String owner, String make, String model,  int mileage){
 
         this.owner = owner;
         this.make = make;
@@ -16,4 +16,14 @@ public class BuildACar {
         this.mileage = mileage;
     }
 
+
+    @Override
+    public String toString() {
+        return "BuildACar{" +
+                "owner='" + owner + '\'' +
+                ", make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", mileage=" + mileage +
+                '}';
+    }
 }

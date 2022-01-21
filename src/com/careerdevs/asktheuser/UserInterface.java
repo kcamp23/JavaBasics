@@ -1,5 +1,7 @@
 package com.careerdevs.asktheuser;
 
+import javax.sound.midi.Soundbank;
+import java.net.SocketOption;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
@@ -18,7 +20,7 @@ public class UserInterface {
         String userDaddy = scanner.next();
         System.out.println("OH, " + userDaddy + " and me went to school together!!");
 
-        System.out.print("Is he rich?, rich like me?");
+        System.out.print("Is he rich?, rich like me?"  + "\n" +  "true or false ");
             //boolean
         boolean userRich = scanner.nextBoolean();
         if (true == userRich) {
@@ -27,26 +29,43 @@ public class UserInterface {
             System.out.println("Well, we cant all be as awesome as me ");
         }
 
-        System.out.print("Where do you work ?");
-            //long
+        System.out.print( "Where do you work ?");
+            //String
+        String userWork = scanner.next();
+        System.out.print("sounds like " + userWork + " is a fun place to work ");
 
-        System.out.print("How much do you make?");
+
+        System.out.print("\n" + "How much do you make?");
                 //double
+        double userWage = scanner.nextDouble();
+        System.out.print (" In time, making, " + userWage + " will seem like a good starting point to be well off");
+        System.out.print(" \n ");
 
-        System.out.print("Do you pay taxes?");
+
+        System.out.print("You pay taxes?" + "\n" + " True or false");
                 // boolean
+        boolean userTaxesPaid = scanner.nextBoolean();
+        if (userTaxesPaid == true ){
+            System.out.print("CONGRATS for paying taxes and being a GREAT citizen");}
 
-        System.out.print("How many dependants do you have?");
-                //float
+       else {System.out.print("You should be ashamed and should really start paying taxes.");
+        }
 
-        System.out.print("What type of car do you have?");
-                //long
 
-        System.out.print("How old is your car?");
-                //byte
 
-        System.out.print("Have you ever been fired?");
+        System.out.print("\n" + "How many dependants do you have?");
+                //int
+        int userDependants = scanner.nextInt();
+        System.out.print(userDependants + " works for you then thats perfect");
+
+
+        System.out.print("Have you ever been fired?" + "\n" + " Y or N:");
             //char if include y or n
+        char userFired = scanner.next().charAt(0);
+        if (userFired == "y"){
+            System.out.print("Well, thats a shame, you should to continue working on your work ethic more!!!");
+        } else { System.out.print("Well CONGRATS on being a very responsible adult");}
+
 
 
 

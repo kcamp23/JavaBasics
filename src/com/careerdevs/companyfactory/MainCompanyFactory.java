@@ -1,4 +1,4 @@
 package com.careerdevs.companyfactory;
 
-public class Main {
+public class MainCompanyFactory {
 }

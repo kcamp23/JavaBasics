@@ -3,7 +3,7 @@ package com.careerdevs.sayhello;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainSayHello {
     public static void main(String[] args) {
         UserInfo();
 

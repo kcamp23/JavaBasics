@@ -1,4 +1,4 @@
 package com.careerdevs.fruitfactory;
 
-public class Main {
+public class MainFruitFactory {
 }

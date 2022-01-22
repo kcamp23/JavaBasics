@@ -14,6 +14,13 @@ public class MainSongFactory {
         System.out.print("What is the tile? \n Title: ");
         String title = scanner.next();
 
+//        String[] title = new String [scanner.nextInt()];
+//        scanner.nextLine();
+//        for (int i = 0; i < title.length; i++)
+//        {
+//            title[i] = scanner.nextLine();
+//        }
+
         System.out.print("Who is the artist? \n Artist: ");
         String artist = scanner.next();
 

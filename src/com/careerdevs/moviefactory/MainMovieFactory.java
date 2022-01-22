@@ -26,7 +26,10 @@ public class MainMovieFactory {
         System.out.print("Has it been released yet? \n Released true or false:");
         boolean hasBeenReleased  = scanner.nextBoolean();
 
-        
+        Movie  myMovie = new Movie(title,director,runTimeMinutes,hasBeenReleased);
+
+
+        System.out.print(myMovie);
 
     }
 }

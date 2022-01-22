@@ -23,10 +23,8 @@ public class UserInterface {
         System.out.print("Is he rich?, rich like me?"  + "\n" +  "true or false ");
             //boolean
         boolean userRich = scanner.nextBoolean();
-        if (true == userRich) {
-        System.out.print("THAT IS AWESOME!! GOOD FOR YOU GUYS!!");
-        } else if ( userRich == false){
-            System.out.println("Well, we cant all be as awesome as me ");
+        if (true == userRich) {System.out.print("THAT IS AWESOME!! GOOD FOR YOU GUYS!!");}
+        else { System.out.println("Well, we cant all be as awesome as me ");
         }
 
         System.out.print( "Where do you work ?");
@@ -45,11 +43,9 @@ public class UserInterface {
         System.out.print("You pay taxes?" + "\n" + " True or false");
                 // boolean
         boolean userTaxesPaid = scanner.nextBoolean();
-        if (userTaxesPaid == true ){
-            System.out.print("CONGRATS for paying taxes and being a GREAT citizen");}
+        if (userTaxesPaid == true ) System.out.print("CONGRATS for paying taxes and being a GREAT citizen");
 
-       else {System.out.print("You should be ashamed and should really start paying taxes.");
-        }
+       else System.out.print("You should be ashamed and should really start paying taxes.");
 
 
 
@@ -62,13 +58,15 @@ public class UserInterface {
         System.out.print("Have you ever been fired?" + "\n" + " Y or N:");
             //char if include y or n
         char userFired = scanner.next().charAt(0);
-        if (userFired == "y"){
-            System.out.print("Well, thats a shame, you should to continue working on your work ethic more!!!");
-        } else { System.out.print("Well CONGRATS on being a very responsible adult");}
+        System.out.print(userFired);
 
 
-
-
+//        if (userFired == "y")
+//        {System.out.print("Well, thats a shame, you should to continue working on your work ethic more!!!");}
+//        else{
+//                System.out.print("Well CONGRATS on being a very responsible adult");
+//
+//            }
+        }
     }
 
-}

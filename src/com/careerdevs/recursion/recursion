@@ -1,2 +1,3 @@
 recursion is when a method calls itself within its own method to keep it looping until its called to stop by parameters
 
+the danger of using recursion is you can get stuck in a loop, and also uses a greater amount of memory

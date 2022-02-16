@@ -9,25 +9,25 @@ public class edabitchallange {
     }
 
 
-//edabit challange
-//public class Challenge {
-//    public static int sum(int n) {
-//        int s = n;
-//        if (n == 1)
-//            return 1;
-//        n--;
-//        return sum(n) + s;
-//    }
-//}
-////Create a method (countDown) that takes an int as input and counts down to 0 starting with the number passed as a parameter
-//    static void countDown(int max, int min) {
-//        if (max == min)
-//            System.out.print(min);
-//        else {
-//            System.out.print(max + " ");
-//            countDown(max - 1, min);
-//        }
-//    }
+edabit challange
+public class Challenge {
+    public static int sum(int n) {
+        int s = n;
+        if (n == 1)
+            return 1;
+        n--;
+        return sum(n) + s;
+    }
+}
+//Create a method (countDown) that takes an int as input and counts down to 0 starting with the number passed as a parameter
+    static void countDown(int max, int min) {
+        if (max == min)
+            System.out.print(min);
+        else {
+            System.out.print(max + " ");
+            countDown(max - 1, min);
+        }
+    }
 
 
 static void countDown() {
@@ -61,4 +61,4 @@ static void countDown() {
 
 
 
-
+// make these all different mthods and givce new names so they function correctly
